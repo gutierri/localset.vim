@@ -1,0 +1,14 @@
+localset.vim
+
+localset.vim is a simple, minimalist plugin that sets (project) local settings
+looking for a vim.local at the root of $VIM_PROJECT
+
+configuration:
+
+set a variable envirion with the name of the project root folder on shell
+
+$ export VIM_PROJECT=localset.vim
+
+now every time you are editing a file inside this folder, localset.vim
+automatically updates looking for a file with settings in 
+$VIM_PROJECT/vim.local
